@@ -1,0 +1,197 @@
+# E-Commerce Analytics Platform Configuration
+# Copy this file to config.yml and modify with your settings
+
+# Database Configuration
+database:
+  host: localhost
+  port: 5432
+  name: ecommerce_analytics
+  user: your_username
+  password: your_password
+  pool_size: 10
+  max_overflow: 20
+  echo: false
+
+# Data Generation Settings
+data_generation:
+  # Customer data generation
+  customers:
+    num_customers: 10000
+    segments:
+      - Premium
+      - Regular
+      - Occasional
+      - New
+    segment_weights:
+      Premium: 0.1
+      Regular: 0.5
+      Occasional: 0.3
+      New: 0.1
+  
+  # Product data generation
+  products:
+    num_products: 500
+    categories:
+      - Electronics
+      - Clothing
+      - Home & Garden
+      - Sports & Outdoors
+      - Books & Media
+      - Health & Beauty
+      - Automotive
+      - Toys & Games
+    price_range:
+      min: 10.0
+      max: 500.0
+  
+  # Store data generation
+  stores:
+    num_stores: 100
+    store_types:
+      - Flagship
+      - Standard
+      - Outlet
+      - Pop-up
+    geographic_distribution:
+      Urban: 0.4
+      Suburban: 0.4
+      Rural: 0.2
+  
+  # Sales data generation
+  sales:
+    avg_orders_per_day: 1500
+    date_range:
+      start: "2023-01-01"
+      end: "2024-12-31"
+    seasonal_patterns:
+      spring: 1.1
+      summer: 1.3
+      fall: 1.2
+      winter: 1.4
+      holiday_season: 2.0
+    return_rate: 0.05
+
+# Analytics Configuration
+analytics:
+  # Dashboard settings
+  dashboards:
+    output_format: html
+    output_directory: reports
+    include_charts: true
+    include_tables: true
+  
+  # KPI calculations
+  kpis:
+    revenue_metrics: true
+    customer_metrics: true
+    product_metrics: true
+    store_metrics: true
+    operational_metrics: true
+  
+  # Visualization settings
+  charts:
+    theme: seaborn
+    color_palette: husl
+    figure_size: [12, 8]
+    dpi: 300
+
+# Data Quality Settings
+data_quality:
+  validation:
+    enabled: true
+    strict_mode: false
+  
+  # Data quality thresholds
+  thresholds:
+    missing_rate: 0.02
+    duplicate_rate: 0.001
+    outlier_rate: 0.01
+    invalid_email_rate: 0.01
+  
+  # Data cleaning
+  cleaning:
+    remove_duplicates: true
+    fill_missing_values: true
+    validate_data_types: true
+    normalize_text: true
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_handlers:
+    - filename: logs/app.log
+      level: INFO
+      max_bytes: 10485760  # 10MB
+      backup_count: 5
+    - filename: logs/error.log
+      level: ERROR
+      max_bytes: 10485760  # 10MB
+      backup_count: 5
+  console_handler:
+    level: INFO
+    enabled: true
+
+# Performance Settings
+performance:
+  # Data processing
+  batch_size: 10000
+  max_workers: 4
+  memory_limit: "2GB"
+  
+  # Database optimization
+  connection_pooling: true
+  query_timeout: 300
+  bulk_insert_size: 1000
+
+# Security Settings
+security:
+  # Data encryption
+  encrypt_sensitive_data: false
+  encryption_key: ""
+  
+  # Access control
+  require_authentication: false
+  allowed_ips: []
+  
+  # Data retention
+  retention_policy:
+    raw_data_days: 90
+    processed_data_days: 365
+    analytics_data_days: 730
+
+# Integration Settings
+integrations:
+  # External APIs (for future use)
+  apis:
+    payment_processor: false
+    shipping_provider: false
+    marketing_platform: false
+  
+  # Export formats
+  export:
+    csv: true
+    json: true
+    excel: false
+    parquet: true
+
+# Monitoring and Alerting
+monitoring:
+  enabled: false
+  metrics:
+    - data_quality_score
+    - processing_time
+    - error_rate
+    - data_volume
+  
+  alerts:
+    email_notifications: false
+    slack_notifications: false
+    webhook_url: ""
+
+# Development Settings
+development:
+  debug_mode: false
+  test_data: false
+  mock_external_services: true
+  auto_reload: false 
