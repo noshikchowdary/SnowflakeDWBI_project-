@@ -1,78 +1,14 @@
-# E-Commerce Analytics Platform Dependencies
-# Core data processing
-pandas>=2.0.0
-numpy>=1.24.0
-pyarrow>=12.0.0  # For Parquet support
-
-# Data generation and faking
-Faker>=18.0.0
-
-# Geographic data processing
-geopy>=2.3.0
-
-# Database connectivity
-psycopg2-binary>=2.9.0  # PostgreSQL adapter
-sqlalchemy>=2.0.0
-
-# Data quality and validation
-great-expectations>=0.17.0
-pandera>=0.14.0
-
-# Machine learning and analytics
-scikit-learn>=1.3.0
-scipy>=1.10.0
-
-# Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-plotly>=5.15.0
-
-# Configuration management
-pyyaml>=6.0
-python-dotenv>=1.0.0
-
-# Logging and monitoring
-structlog>=23.1.0
-
-# Testing
-pytest>=7.4.0
-pytest-cov>=4.1.0
-
-# Code quality
-black>=23.7.0
-flake8>=6.0.0
-mypy>=1.5.0
-
-# Documentation
-sphinx>=7.1.0
-sphinx-rtd-theme>=1.3.0
-
-# Development tools
-jupyter>=1.0.0
-ipython>=8.14.0
-
-# API and web framework (for future extensions)
-fastapi>=0.100.0
-uvicorn>=0.23.0
-
-# Task scheduling and automation
-celery>=5.3.0
-redis>=4.6.0
-
-# Data pipeline orchestration
-apache-airflow>=2.7.0
-
-# Cloud storage (optional)
-boto3>=1.28.0  # AWS S3
-google-cloud-storage>=2.10.0  # Google Cloud Storage
-
-# Monitoring and observability
-prometheus-client>=0.17.0
-grafana-api>=1.0.3
-
-# Security
-cryptography>=41.0.0
-
-# Performance optimization
-numba>=0.57.0
-cython>=3.0.0 
+snowflake-connector-python==3.0.4
+pandas==2.0.3
+numpy==1.24.3
+pytest==7.4.0
+pytest-cov==4.1.0
+python-dotenv==1.0.0
+jupyter==1.0.0
+notebook==6.5.4
+great-expectations==0.17.23
+sqlalchemy==2.0.19
+psycopg2-binary==2.9.7
+requests==2.31.0
+pyyaml==6.0.1
+schedule==1.2.0 
