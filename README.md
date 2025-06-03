@@ -70,6 +70,10 @@ Each subfolder contains data files or scripts to initialize your database. This 
 - File handling and automation
 - Data transformation using `pandas`
 - Error handling, backups, and logging
+- Built from scratch: no third-party orchestration or cloud dependencies  
+- Realistic simulation of retail sales pipelines  
+- Demonstrates automation, schema design, and ETL best practices   
+- Easy to extend to PostgreSQL, Snowflake, Airflow, or dbt
 
 ---
 
@@ -131,14 +135,6 @@ Each subfolder contains data files or scripts to initialize your database. This 
 | **File System** | Simulated real-world data drops |
 
 ---
-
-## ⭐ Key Highlights for Recruiters
-
-✅ Built from scratch: no third-party orchestration or cloud dependencies  
-✅ Realistic simulation of retail sales pipelines  
-✅ Demonstrates automation, schema design, and ETL best practices  
-✅ Clear documentation with diagrams, naming conventions, and modular code  
-✅ Easy to extend to PostgreSQL, Snowflake, Airflow, or dbt
 
 ---
 
