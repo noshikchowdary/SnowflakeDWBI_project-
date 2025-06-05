@@ -6,7 +6,7 @@ This project demonstrates my ability to design, develop, and document a full-sta
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Over
 
 **Business Context**  
 A fictional retail business operates multiple store locations and collects daily sales data in CSV files. As a Data Engineer, my role is to:
