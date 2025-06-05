@@ -4,7 +4,7 @@ import pandas as pd
 
 # start date and end date between which we need to geenrate our dates 
 
-start_date ='2014-01-01'
+start_date ='2014-05-01'
 end_date='2024-12-31'
 
 # generate a series of dates between the start and the end date 
