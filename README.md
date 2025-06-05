@@ -1,4 +1,4 @@
-# 🛍️ ales Data Warehouse ETL Project
+# 🛍️ sales Data Warehouse ETL Project
 
 Welcome to a hands-on data engineering project that simulates a complete **Sales Data Warehouse pipeline**—from ingesting raw retail data to building a structured star schema ready for business intelligence and analytics.  
 
