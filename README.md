@@ -12,7 +12,7 @@ This project demonstrates my ability to design, develop, and document a full-sta
 A fictional retail business operates multiple store locations and collects daily sales data in CSV files. As a Data Engineer, my role is to:
 
 - Set up a structured **data warehouse**
-- Build automated ETL scripts to process raw sales data
+- Build automated ETL scripts to process sales data
 - Design a relational model for downstream analytics and reporting
 - Deliver clean, enriched, query-ready tables for use by analysts and BI teams
 
