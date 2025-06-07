@@ -2,7 +2,7 @@
 
 Welcome to a hands-on data engineering project that simulates a complete **Sales Data Warehouse pipeline**—from ingesting raw retail data to building a structured star schema ready for business intelligence and analytics.  
 
-This project demonstrates my ability to design, develop, and document a full-stack ETL workflow using **Python, SQL, Excel, and file-based automation techniques**. It reflects real-world practices in data warehousing, data transformation, and schema modeling
+This project demonstrates my ability to design, develop, and document a full-stack ETL workflow using **Python, SQL, Excel, and file-based automation techniques**. It reflects real-world practices in data warehousing, data transformation, and schema modeling.
 
 ---
 
