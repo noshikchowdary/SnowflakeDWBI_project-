@@ -1,5 +1,5 @@
 #import python libraries 
-import pandas as p
+import pandas as pd
 import random
 import csv
 from faker import Faker
