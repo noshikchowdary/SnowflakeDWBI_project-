@@ -30,7 +30,7 @@ with open(csv_file,mode='w',newline='') as file:
     writer.writerow(header)
 
 #loop and generate multiple rows 
-    for _ in range(num_rows)
+    for _ in range(num_rows):
         row=[
             fake.first_name(),
             fake.last_name(),
